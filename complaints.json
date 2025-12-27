@@ -1,0 +1,80 @@
+[
+  {
+    "referenceId": "VLG-128723d6",
+    "city": "AMBAJIPETA",
+    "area": "MACHAVARAM ",
+    "street": "CHAPPIDI VARI PALEM",
+    "issueType": "Street Light",
+    "otherIssue": "",
+    "description": "STRREET LIGHT ",
+    "email": "srirampechetti251@gmail.com",
+    "googleToken": "eyJhbGciOiJSUzI1NiIsImtpZCI6Ijk4OGQ1YTM3OWI3OGJkZjFlNTBhNDA5MTEzZjJiMGM3NWU0NTJlNDciLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiU3JpcmFtIENoYW5kcmEgTXVydGhpIFBlY2hldHRpIiwicGljdHVyZSI6Imh0dHBzOi8vbGgzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9hL0FDZzhvY0plaG9NbUJhbWY5OXhQYjZnZVZlbFZjaS1pWVJCS0J0dEg2TGtaSGliNm9DNjBOdzBsPXM5Ni1jIiwiaXNzIjoiaHR0cHM6Ly9zZWN1cmV0b2tlbi5nb29nbGUuY29tL3JlcG9ydC1pc3N1ZS03MDQ2NyIsImF1ZCI6InJlcG9ydC1pc3N1ZS03MDQ2NyIsImF1dGhfdGltZSI6MTc2NjgxNjQwNiwidXNlcl9pZCI6IlNxS3F2TzR3Tm9nSFlGYUQyVkloc1MzRVR4ZjIiLCJzdWIiOiJTcUtxdk80d05vZ0hZRmFEMlZJaHNTM0VUeGYyIiwiaWF0IjoxNzY2ODE2NDA2LCJleHAiOjE3NjY4MjAwMDYsImVtYWlsIjoic3JpcmFtcGVjaGV0dGkyNTFAZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsiZ29vZ2xlLmNvbSI6WyIxMDgwNjc5NDQwODIxMDgxNzQ0ODUiXSwiZW1haWwiOlsic3JpcmFtcGVjaGV0dGkyNTFAZ21haWwuY29tIl19LCJzaWduX2luX3Byb3ZpZGVyIjoiZ29vZ2xlLmNvbSJ9fQ.KGsd56QP2FFEUDdKrz4nWnqALQSyMaitHh4Ct71e9tyhQ2Yatxwe9vZ-NV0YqHljOgd38sIUwDu1F1EwL12q-se0M9etAU_eSCX08alVf17eC-5vvQOi6fHXeohDZsI1NUWXZJ0sUYU0I7ZogijClzamvXTDKVayoz7iN5UB04EqECBPAlpAopzyMchEGem-aykSay_k9OFB3Ij4DIvu-uYjuIx-ENHtufTT2Deoh-gnZG5cNz3lgSZVph3wilVBDUcUggbvGLsK450jaINxfYKLICulgLc2xfGSqX01bB97_eO7hzwSXAd5M2om4tREDi1aJkMpHmqKIvlE1Rtztg",
+    "date": "2025-12-27T06:23:57.539Z",
+    "status": "Received"
+  },
+  {
+    "referenceId": "VLG-7a1571ef",
+    "city": "AMBAJIPETA ",
+    "area": "MACHAVRAM",
+    "street": "CHAPPIDI VRI PALEM",
+    "issueType": "Street Light",
+    "otherIssue": "",
+    "description": "steetlight issue",
+    "email": "srirampechetti251@gmail.com",
+    "googleToken": "eyJhbGciOiJSUzI1NiIsImtpZCI6Ijk4OGQ1YTM3OWI3OGJkZjFlNTBhNDA5MTEzZjJiMGM3NWU0NTJlNDciLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiU3JpcmFtIENoYW5kcmEgTXVydGhpIFBlY2hldHRpIiwicGljdHVyZSI6Imh0dHBzOi8vbGgzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9hL0FDZzhvY0plaG9NbUJhbWY5OXhQYjZnZVZlbFZjaS1pWVJCS0J0dEg2TGtaSGliNm9DNjBOdzBsPXM5Ni1jIiwiaXNzIjoiaHR0cHM6Ly9zZWN1cmV0b2tlbi5nb29nbGUuY29tL3JlcG9ydC1pc3N1ZS03MDQ2NyIsImF1ZCI6InJlcG9ydC1pc3N1ZS03MDQ2NyIsImF1dGhfdGltZSI6MTc2NjgxNjQwNiwidXNlcl9pZCI6IlNxS3F2TzR3Tm9nSFlGYUQyVkloc1MzRVR4ZjIiLCJzdWIiOiJTcUtxdk80d05vZ0hZRmFEMlZJaHNTM0VUeGYyIiwiaWF0IjoxNzY2ODE2NDA2LCJleHAiOjE3NjY4MjAwMDYsImVtYWlsIjoic3JpcmFtcGVjaGV0dGkyNTFAZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsiZ29vZ2xlLmNvbSI6WyIxMDgwNjc5NDQwODIxMDgxNzQ0ODUiXSwiZW1haWwiOlsic3JpcmFtcGVjaGV0dGkyNTFAZ21haWwuY29tIl19LCJzaWduX2luX3Byb3ZpZGVyIjoiZ29vZ2xlLmNvbSJ9fQ.KGsd56QP2FFEUDdKrz4nWnqALQSyMaitHh4Ct71e9tyhQ2Yatxwe9vZ-NV0YqHljOgd38sIUwDu1F1EwL12q-se0M9etAU_eSCX08alVf17eC-5vvQOi6fHXeohDZsI1NUWXZJ0sUYU0I7ZogijClzamvXTDKVayoz7iN5UB04EqECBPAlpAopzyMchEGem-aykSay_k9OFB3Ij4DIvu-uYjuIx-ENHtufTT2Deoh-gnZG5cNz3lgSZVph3wilVBDUcUggbvGLsK450jaINxfYKLICulgLc2xfGSqX01bB97_eO7hzwSXAd5M2om4tREDi1aJkMpHmqKIvlE1Rtztg",
+    "date": "2025-12-27T06:35:29.166Z",
+    "status": "Received"
+  },
+  {
+    "referenceId": "VLG-18a95d19",
+    "city": "AMBJIPETA",
+    "area": ",AVHABTA",
+    "street": "NBJNBJ",
+    "issueType": "Garbage",
+    "otherIssue": "",
+    "description": "NBNBJFGBNNJB",
+    "email": "srirampechetti251@gmail.com",
+    "googleToken": "eyJhbGciOiJSUzI1NiIsImtpZCI6Ijk4OGQ1YTM3OWI3OGJkZjFlNTBhNDA5MTEzZjJiMGM3NWU0NTJlNDciLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiU3JpcmFtIENoYW5kcmEgTXVydGhpIFBlY2hldHRpIiwicGljdHVyZSI6Imh0dHBzOi8vbGgzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9hL0FDZzhvY0plaG9NbUJhbWY5OXhQYjZnZVZlbFZjaS1pWVJCS0J0dEg2TGtaSGliNm9DNjBOdzBsPXM5Ni1jIiwiaXNzIjoiaHR0cHM6Ly9zZWN1cmV0b2tlbi5nb29nbGUuY29tL3JlcG9ydC1pc3N1ZS03MDQ2NyIsImF1ZCI6InJlcG9ydC1pc3N1ZS03MDQ2NyIsImF1dGhfdGltZSI6MTc2NjgxNjQwNiwidXNlcl9pZCI6IlNxS3F2TzR3Tm9nSFlGYUQyVkloc1MzRVR4ZjIiLCJzdWIiOiJTcUtxdk80d05vZ0hZRmFEMlZJaHNTM0VUeGYyIiwiaWF0IjoxNzY2ODE2NDA2LCJleHAiOjE3NjY4MjAwMDYsImVtYWlsIjoic3JpcmFtcGVjaGV0dGkyNTFAZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsiZ29vZ2xlLmNvbSI6WyIxMDgwNjc5NDQwODIxMDgxNzQ0ODUiXSwiZW1haWwiOlsic3JpcmFtcGVjaGV0dGkyNTFAZ21haWwuY29tIl19LCJzaWduX2luX3Byb3ZpZGVyIjoiZ29vZ2xlLmNvbSJ9fQ.KGsd56QP2FFEUDdKrz4nWnqALQSyMaitHh4Ct71e9tyhQ2Yatxwe9vZ-NV0YqHljOgd38sIUwDu1F1EwL12q-se0M9etAU_eSCX08alVf17eC-5vvQOi6fHXeohDZsI1NUWXZJ0sUYU0I7ZogijClzamvXTDKVayoz7iN5UB04EqECBPAlpAopzyMchEGem-aykSay_k9OFB3Ij4DIvu-uYjuIx-ENHtufTT2Deoh-gnZG5cNz3lgSZVph3wilVBDUcUggbvGLsK450jaINxfYKLICulgLc2xfGSqX01bB97_eO7hzwSXAd5M2om4tREDi1aJkMpHmqKIvlE1Rtztg",
+    "date": "2025-12-27T06:41:10.162Z",
+    "status": "Received"
+  },
+  {
+    "referenceId": "VLG-57c3ff4d",
+    "city": "vdvxvxvcx",
+    "area": "vdfvdfvdfv",
+    "street": "zxvxvczvzv",
+    "issueType": "Street Light",
+    "otherIssue": "",
+    "description": "cvxcvcvvcxvx",
+    "email": "23b21a4538@kietgroup.com",
+    "googleToken": "eyJhbGciOiJSUzI1NiIsImtpZCI6Ijk4OGQ1YTM3OWI3OGJkZjFlNTBhNDA5MTEzZjJiMGM3NWU0NTJlNDciLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiTVVSVEhJIGtpZXQiLCJwaWN0dXJlIjoiaHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jS0xLYTNRWUIwU1V6Q0taSXhDS2tLTTF2ekR4bUQwMnk5MWgyRnRqV0h5NFNzT1h3PXM5Ni1jIiwiaXNzIjoiaHR0cHM6Ly9zZWN1cmV0b2tlbi5nb29nbGUuY29tL3JlcG9ydC1pc3N1ZS03MDQ2NyIsImF1ZCI6InJlcG9ydC1pc3N1ZS03MDQ2NyIsImF1dGhfdGltZSI6MTc2NjgxNzk5NSwidXNlcl9pZCI6Ik9Xcm1DSDFuUVNRcThPb2xmeU5RUHRxcXhsRDIiLCJzdWIiOiJPV3JtQ0gxblFTUXE4T29sZnlOUVB0cXF4bEQyIiwiaWF0IjoxNzY2ODE3OTk1LCJleHAiOjE3NjY4MjE1OTUsImVtYWlsIjoiMjNiMjFhNDUzOEBraWV0Z3JvdXAuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsiZ29vZ2xlLmNvbSI6WyIxMDU0NDYyODk5OTkyMjI0ODYyNjUiXSwiZW1haWwiOlsiMjNiMjFhNDUzOEBraWV0Z3JvdXAuY29tIl19LCJzaWduX2luX3Byb3ZpZGVyIjoiZ29vZ2xlLmNvbSJ9fQ.MvLKUHyG36i5-8qjJtRWCE0dsr3mjGp-f_Wo5ibgJKxEyu1vjhp_5PS4afNXU0LIT4PX3ki-Fc52EuKUYCq7c-6u7LapfulxdvwZBJ34ILXStQu7FAIj_wn1U6Wn5lnJmm0dxAGDDlOKl-05hesroeRMYq27uEwDC68UXWg6Z6ID44tx2-aaOBL3lXYYCTuhWwivXBxfB4Ir53_YTEHjeVy4X7xX_hmqcILmtPDlDOTDQ0IqyR5HqEifNmQ6Uaf0u2-ZCHbssNT3RA1mX7y1rcU8aTeoegOJd1_0GI-ofzJQ0l1aniMvVOX-sXBthYdamm5yPsmHZSQxWS48QsEUVA",
+    "date": "2025-12-27T06:47:07.674Z",
+    "status": "Received"
+  },
+  {
+    "referenceId": "VLG-34903424",
+    "city": "vdvxvxvcx",
+    "area": "vdfvdfvdfv",
+    "street": "zxvxvczvzv",
+    "issueType": "Street Light",
+    "otherIssue": "",
+    "description": "bhyjfytfytf",
+    "email": "23b21a4538@kietgroup.com",
+    "googleToken": "eyJhbGciOiJSUzI1NiIsImtpZCI6Ijk4OGQ1YTM3OWI3OGJkZjFlNTBhNDA5MTEzZjJiMGM3NWU0NTJlNDciLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiTVVSVEhJIGtpZXQiLCJwaWN0dXJlIjoiaHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jS0xLYTNRWUIwU1V6Q0taSXhDS2tLTTF2ekR4bUQwMnk5MWgyRnRqV0h5NFNzT1h3PXM5Ni1jIiwiaXNzIjoiaHR0cHM6Ly9zZWN1cmV0b2tlbi5nb29nbGUuY29tL3JlcG9ydC1pc3N1ZS03MDQ2NyIsImF1ZCI6InJlcG9ydC1pc3N1ZS03MDQ2NyIsImF1dGhfdGltZSI6MTc2NjgxNzk5NSwidXNlcl9pZCI6Ik9Xcm1DSDFuUVNRcThPb2xmeU5RUHRxcXhsRDIiLCJzdWIiOiJPV3JtQ0gxblFTUXE4T29sZnlOUVB0cXF4bEQyIiwiaWF0IjoxNzY2ODE3OTk1LCJleHAiOjE3NjY4MjE1OTUsImVtYWlsIjoiMjNiMjFhNDUzOEBraWV0Z3JvdXAuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsiZ29vZ2xlLmNvbSI6WyIxMDU0NDYyODk5OTkyMjI0ODYyNjUiXSwiZW1haWwiOlsiMjNiMjFhNDUzOEBraWV0Z3JvdXAuY29tIl19LCJzaWduX2luX3Byb3ZpZGVyIjoiZ29vZ2xlLmNvbSJ9fQ.MvLKUHyG36i5-8qjJtRWCE0dsr3mjGp-f_Wo5ibgJKxEyu1vjhp_5PS4afNXU0LIT4PX3ki-Fc52EuKUYCq7c-6u7LapfulxdvwZBJ34ILXStQu7FAIj_wn1U6Wn5lnJmm0dxAGDDlOKl-05hesroeRMYq27uEwDC68UXWg6Z6ID44tx2-aaOBL3lXYYCTuhWwivXBxfB4Ir53_YTEHjeVy4X7xX_hmqcILmtPDlDOTDQ0IqyR5HqEifNmQ6Uaf0u2-ZCHbssNT3RA1mX7y1rcU8aTeoegOJd1_0GI-ofzJQ0l1aniMvVOX-sXBthYdamm5yPsmHZSQxWS48QsEUVA",
+    "date": "2025-12-27T06:49:38.303Z",
+    "status": "Received"
+  },
+  {
+    "referenceId": "VLG-e6d3bfe4",
+    "city": "fvdvzdvadv",
+    "area": "zvzcvzxcv",
+    "street": "zxvxvczvzv",
+    "issueType": "Garbage",
+    "otherIssue": "",
+    "description": "fdvdfvfv",
+    "email": "23b21a4538@kietgroup.com",
+    "googleToken": "eyJhbGciOiJSUzI1NiIsImtpZCI6Ijk4OGQ1YTM3OWI3OGJkZjFlNTBhNDA5MTEzZjJiMGM3NWU0NTJlNDciLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiTVVSVEhJIGtpZXQiLCJwaWN0dXJlIjoiaHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jS0xLYTNRWUIwU1V6Q0taSXhDS2tLTTF2ekR4bUQwMnk5MWgyRnRqV0h5NFNzT1h3PXM5Ni1jIiwiaXNzIjoiaHR0cHM6Ly9zZWN1cmV0b2tlbi5nb29nbGUuY29tL3JlcG9ydC1pc3N1ZS03MDQ2NyIsImF1ZCI6InJlcG9ydC1pc3N1ZS03MDQ2NyIsImF1dGhfdGltZSI6MTc2NjgxNzk5NSwidXNlcl9pZCI6Ik9Xcm1DSDFuUVNRcThPb2xmeU5RUHRxcXhsRDIiLCJzdWIiOiJPV3JtQ0gxblFTUXE4T29sZnlOUVB0cXF4bEQyIiwiaWF0IjoxNzY2ODE3OTk1LCJleHAiOjE3NjY4MjE1OTUsImVtYWlsIjoiMjNiMjFhNDUzOEBraWV0Z3JvdXAuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsiZ29vZ2xlLmNvbSI6WyIxMDU0NDYyODk5OTkyMjI0ODYyNjUiXSwiZW1haWwiOlsiMjNiMjFhNDUzOEBraWV0Z3JvdXAuY29tIl19LCJzaWduX2luX3Byb3ZpZGVyIjoiZ29vZ2xlLmNvbSJ9fQ.MvLKUHyG36i5-8qjJtRWCE0dsr3mjGp-f_Wo5ibgJKxEyu1vjhp_5PS4afNXU0LIT4PX3ki-Fc52EuKUYCq7c-6u7LapfulxdvwZBJ34ILXStQu7FAIj_wn1U6Wn5lnJmm0dxAGDDlOKl-05hesroeRMYq27uEwDC68UXWg6Z6ID44tx2-aaOBL3lXYYCTuhWwivXBxfB4Ir53_YTEHjeVy4X7xX_hmqcILmtPDlDOTDQ0IqyR5HqEifNmQ6Uaf0u2-ZCHbssNT3RA1mX7y1rcU8aTeoegOJd1_0GI-ofzJQ0l1aniMvVOX-sXBthYdamm5yPsmHZSQxWS48QsEUVA",
+    "date": "2025-12-27T06:51:18.140Z",
+    "status": "Received"
+  }
+]

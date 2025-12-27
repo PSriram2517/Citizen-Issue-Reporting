@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Check Complaint Status</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <main class="page">
+    <header class="site-header">
+      <div class="brand"></div>
+      <div>
+        <h2>Track Your Report</h2>
+        <p class="subtitle">Enter the reference ID you received by email.</p>
+      </div>
+    </header>
+
+    <form id="statusForm" class="report-card">
+      <label>Reference ID:</label>
+      <input type="text" id="refId" placeholder="VLG-..." required>
+      <button type="submit">Check Status</button>
+    </form>
+
+    <div id="statusResult" class="report-card" style="margin-top:12px;padding:18px;display:none"></div>
+  </main>
+
+  <script src="status.js"></script>
+</body>
+</html>

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Citizen Issue Reporting</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <script src="https://accounts.google.com/gsi/client" async defer></script>
+  <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-firestore-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-auth-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-analytics-compat.js"></script>
+  <script src="firebase-init.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <div class="brand-mini">Gov</div>
+      <nav class="nav">
+        <a href="#" class="nav-link active">Home</a>
+        <a href="#" class="nav-link">Services</a>
+        <a href="#" class="nav-link">Help</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page">
+  <header class="site-header">
+    <div class="brand">
+      <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden>
+        <circle cx="12" cy="12" r="10" fill="url(#g)" />
+        <defs>
+          <linearGradient id="g" x1="0" x2="1">
+            <stop offset="0" stop-color="#2b8cff" />
+            <stop offset="1" stop-color="#6ef" />
+          </linearGradient>
+        </defs>
+      </svg>
+    </div>
+    <div>
+      <h2>Citizen Issue Reporting</h2>
+      <p class="subtitle">Quickly report local issues — we'll route them to the right team.</p>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-inner">
+      <h1>Report local infrastructure issues — fast.</h1>
+      <p class="lead">Submit a single issue with exact location. You will receive a confirmation email and a reference ID to track progress.</p>
+    </div>
+  </section>
+
+  <!-- Google Sign-In Section (Firebase Auth) -->
+  <div id="googleLoginSection" class="report-card" style="text-align:center;margin-bottom:16px">
+    <p style="margin-bottom:12px;color:#94a3b8">Sign in with Google to report an issue</p>
+    <button id="signInBtn" class="btn" style="padding:10px 18px">Sign in with Google</button>
+    <button id="signOutBtn" class="btn secondary" style="padding:10px 18px;display:none;margin-left:8px">Sign out</button>
+    <div id="userInfo" style="display:none;margin-top:12px;color:var(--accent)">
+      Logged in as: <strong id="userName"></strong>
+    </div>
+    <div id="authDebug" style="margin-top:12px;color:#ffb4b4;font-size:13px;display:none"></div>
+  </div>
+
+  <div id="formSection" style="display:none">
+    <div class="control-row" style="display:flex;gap:8px;margin-bottom:12px;">
+      <button id="showReport" class="tab-btn" type="button">Report Issue</button>
+      <button id="showStatus" class="tab-btn" type="button">Track Report</button>
+    </div>
+
+  <section id="reportSection">
+  <!-- Wizard: stepper -->
+  <form id="issueForm" class="report-card wizard">
+    <div class="stepper">
+      <div class="step active" data-step="1">1</div>
+      <div class="step" data-step="2">2</div>
+      <div class="step" data-step="3">3</div>
+    </div>
+
+    <div class="wizard-step" data-step="1">
+      <h3>Location</h3>
+      <div class="location-grid">
+        <div class="field">
+          <label>City</label>
+          <input class="with-icon" type="text" id="city" required>
+        </div>
+        <div class="field">
+          <label>Area</label>
+          <input class="with-icon" type="text" id="area" required>
+        </div>
+        <div class="field">
+          <label>Street</label>
+          <input class="with-icon" type="text" id="street" required>
+        </div>
+      </div>
+      <div class="wizard-actions">
+        <button type="button" class="btn" data-action="next">Next</button>
+      </div>
+    </div>
+
+    <div class="wizard-step" data-step="2" style="display:none">
+      <h3>Details</h3>
+      <label>Issue Type</label>
+      <select id="issueType" required>
+        <option value="">Select Issue</option>
+        <option value="Potholes">Potholes</option>
+        <option value="Water Leakage">Water Leakage</option>
+        <option value="Street Light">Street Light Issue</option>
+        <option value="Garbage">Garbage Problem</option>
+        <option value="Other">Other</option>
+      </select>
+      <div id="otherField" style="display:none;margin-top:8px">
+        <label>If Other, describe</label>
+        <input type="text" id="otherIssue" placeholder="Describe the issue" />
+      </div>
+
+      <label style="margin-top:10px">Description</label>
+      <textarea id="description" required></textarea>
+
+      <label style="margin-top:10px">Photo (optional)</label>
+      <input type="file" id="photo" accept="image/*">
+      <div id="photoPreview" style="margin-top:8px"></div>
+
+      <div class="wizard-actions">
+        <button type="button" class="btn secondary" data-action="back">Back</button>
+        <button type="button" class="btn" data-action="next">Next</button>
+      </div>
+    </div>
+
+    <div class="wizard-step" data-step="3" style="display:none">
+      <h3>Contact & Submit</h3>
+      <label>Email</label>
+      <input type="email" id="email" required>
+
+      <div style="margin-top:12px;color:var(--muted);font-size:13px">You will receive a confirmation email with a reference ID.</div>
+
+      <div class="wizard-actions" style="margin-top:14px">
+        <button type="button" class="btn secondary" data-action="back">Back</button>
+        <button id="submitBtn" type="submit" class="btn">
+          <span class="btn-label">Submit Issue</span>
+          <span class="spinner" aria-hidden></span>
+        </button>
+      </div>
+    </div>
+  </form>
+
+  <p id="message" aria-live="polite"></p>
+  </section>
+
+  <section id="statusSection" style="display:none;margin-top:6px">
+    <form id="statusForm" class="report-card">
+      <label>Reference ID:</label>
+      <input type="text" id="refId" placeholder="VLG-..." required>
+      <button type="submit">Check Status</button>
+    </form>
+
+    <div id="statusResult" class="report-card" style="margin-top:12px;padding:18px;display:none"></div>
+  </section>
+  </div>
+  
+  <div id="toast" aria-live="polite" class="toast" role="status"></div>
+
+  <!-- Success modal -->
+  <div id="successModal" class="modal" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="modal-content" role="document">
+      <h3 id="modalTitle">Report Submitted</h3>
+      <p id="modalMessage">Your issue was submitted successfully.</p>
+      <div class="modal-actions">
+        <button id="copyRef" class="btn">Copy Reference</button>
+        <button id="closeModal" class="btn secondary">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-inner">
+      <div>© 2025 Local Government</div>
+      <div>Contact: support@localgov.example | Phone: 1800-000-000</div>
+    </div>
+  </footer>
+
+</main>
+
+<script src="ript.js"></script>
+</body>
+</html>
